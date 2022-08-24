@@ -2,8 +2,8 @@ print('***********************')
 print('* JOGO DA ADIVINHAÇÃO *')
 print('***********************')
 
-numero_secreto = 42
-total_de_tentativas = 3
+numero_secreto = 42 #utilizar o numero aleatório que preferir 
+total_de_tentativas = 3 #quantidade de tentativas que o jogador poderar ter 
 
 
 for rodada in range(1, total_de_tentativas +1 ):
